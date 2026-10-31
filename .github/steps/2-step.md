@@ -26,7 +26,7 @@ Now we will extend the workflow to run [Playwright](https://playwright.dev/) bro
    ```yaml
    e2e:
      name: E2E Tests with Playwright
-     runs-on: ubuntu-latest
+     runs-on: ubuntu-24.04
      steps:
        - uses: actions/checkout@v6
        - uses: actions/setup-node@v6
